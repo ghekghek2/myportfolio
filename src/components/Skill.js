@@ -1,8 +1,18 @@
 import React from 'react'
 
 function Skill() {
+
   return (
-    <div className='section'>Skill</div>
+    <div className='section'>
+
+
+  
+
+
+
+	</div>
+
+ 
   )
 }
 

@@ -36,6 +36,7 @@ background: #E5ECF4 ;
 .section{
 width: min(1200px ,100%);
 margin-inline: auto;
+
 }
 
 
@@ -43,4 +44,44 @@ a{
      text-decoration: none;
      color: var(--color-3) ;
      cursor: pointer;
+}
+p{
+  font-size: var(--step-0);
+  color: var(--color-3);
+
+}
+.title{
+  font-size: clamp(2.75rem,2vw,2.5rem);
+}
+.btn{
+  font-size: clamp(.95rem ,1.5vw,1.5rem);
+  padding: 10px 30px;
+ margin-bottom: .50rem;
+
+ border: 1px dashed var(--color-3);
+ background-color: #dcfca9;
+ color: var(--color-3);
+border-radius: 2px;
+
+font-family: 'Mulish', sans-serif;
+}
+
+.btn:hover
+{
+color: #292929;
+  background-color: #bfeb7a;
+  border-radius: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+  .section{
+    width: 100%;
+    margin-inline: auto;
+  }
+
+  .btn{
+    font-size: 15px;
+  }
+
 }
