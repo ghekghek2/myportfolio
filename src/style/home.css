@@ -1,6 +1,32 @@
 .home
 {
     position: relative;
+
 }
 
+
+.content{
+    float:right;
+    text-align: right;
+  
+}
+
+
+.content * p {
+  margin-bottom: .5rem;
+  text-align: justify;
+}
+
+
+.content p:nth-child(2) {
+
+    margin-top: 100px;
+ 
+}
+
+.hero-img{
+  shape-outside: url(../images/home-img.png);
+float:right;
+shape-margin:20px ;
+}
 
