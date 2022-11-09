@@ -72,6 +72,11 @@ gap: 2.5em;
     height: 100%;
    padding: 0;
    padding-top: 3em;
+  
+  }
+
+.buttons {
+
   }
 
   .social-icon{
@@ -82,3 +87,16 @@ gap: 2.5em;
 
 }
 
+@media screen and (max-width: 500px) {
+  .buttons{
+    align-items: flex-start;
+    display: flex;
+flex-direction: column;
+width:100%;
+
+
+  }
+  .buttons .btn{
+    margin-left: 3em;
+    }
+}

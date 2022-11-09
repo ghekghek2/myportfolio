@@ -1,6 +1,6 @@
 .about{
     display: flex;
- 
+ padding: 5em 0;
 }
 
 .about-header{
@@ -17,6 +17,7 @@ box-shadow: -9px 10px 16px 0px rgba(0,0,0,0.74);
 -webkit-box-shadow: -9px 10px 16px 0px rgba(0,0,0,0.74);
 -moz-box-shadow: -9px 10px 16px 0px rgba(0,0,0,0.74);
 margin-bottom: 2em;
+margin-left: 3em;
 }
 
 .about-right{
@@ -24,35 +25,96 @@ margin-bottom: 2em;
     width: 50%;
     border: 2px dashed var(--color-2);
     padding: 1em;
-    -moz-transform: skew(-9deg, -4deg);
+    /* -moz-transform: skew(-9deg, -4deg);
     -webkit-transform: skew(-9deg, -4deg);
     -o-transform: skew(-9deg, -4deg);
     -ms-transform: skew(-9deg, -4deg);
-    transform: skew(-9deg, -4deg);
-    box-shadow: 13px 10px 16px 0px rgba(0,0,0,0.74);
--webkit-box-shadow: 13px 10px 16px 0px rgba(0,0,0,0.74);
--moz-box-shadow: 13px 10px 16px 0px rgba(0,0,0,0.74);
+    transform: skew(-9deg, -4deg); */
+    -moz-transform: skew(9deg, 2deg);
+    -webkit-transform: skew(9deg, 2deg);
+    -o-transform: skew(9deg, 2deg);
+    -ms-transform: skew(9deg, 2deg);
+    transform: skew(9deg, 2deg);
+
+box-shadow: -9px 10px 16px 0px rgba(0,0,0,0.50);
+-webkit-box-shadow: -9px 10px 16px 0px rgba(0,0,0,0.50);
+-moz-box-shadow: -9px 10px 16px 0px rgba(0,0,0,0.50);
 margin-left: auto;
+
 }
 
+
+.about-box{
+ margin-right: 2em;
+}
 .about-box img{
-width: 100px;
-height: 100px;
+width: 60px;
+height: 60px;
+
+
+
 }
 
 .about-header img{
     position: absolute;
     top: 0;
-    right: 0;
+    right: 20px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
 .about-right img{
     position: absolute;
     top: 0;
-    right: 200px;
+    right: 0;
     width: 60px ;
     height: 60px;
-    -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
+
   padding-left: 1.5em;
 
+}
+
+@media screen and (max-width: 768px) {
+    .about-header{
+        width: 90%;
+        -moz-transform: skew(1deg, 2deg);
+    -webkit-transform: skew(1deg, 2deg);
+    -o-transform: skew(1deg, 2deg);
+    -ms-transform: skew(1deg, 2deg);
+    transform: skew(1deg, 2deg);
+
+    margin-inline: auto;
+    }
+
+
+
+    
+.about-right{
+    position: relative;
+    width: 80%;
+ 
+    -moz-transform: skew(-1deg, -4deg);
+    -webkit-transform: skew(-1deg, -4deg);
+    -o-transform: skew(-1deg, -4deg);
+    -ms-transform: skew(-1deg, -4deg);
+    transform: skew(-1deg, -4deg);
+
+
+
+}
+
+.about-header img{
+width: 50px;
+height: 50px;
+right: 20px;
+}
+
+.about-right img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+  padding-left: 1.5em;
+
+}
 }

@@ -4,27 +4,30 @@ function Contact() {
 
 
   return (
-    <div className='section'><div className="post-it"><br />
+    <div className=' contact section'>
+      <div className="post-it post-left"><br />
     <p className="sticky taped">
-      <strong>Mary, Mary</strong><br/>
-      Mary, Mary, quite contrary,<br/>
-      How does your garden grow?<br/>
-      With silver bells, and cockle shells,<br/>
-      And pretty maids all in a row.<br/>
+    <ul>
+      <li>
+        learn React js...
+      </li>
+      <li>Learn Gsap Animation...</li>
+<li>learn photoshop...</li>
+    </ul>
     </p>
   </div>
-  <div className="post-it">
+  <div className="post-it post-right">
 
-  <p>Contact me</p>
+
   <form className='note' action="https://formsubmit.co/ghekghek2@gmail.com" method="POST">
               <p class="contact-title">Contact me <i class="fas fa-envelope"></i></p>
               <input type="hidden" name="_subject" value="New email"/>
          
               <label for="email">Email</label>
-              <input type="text" name="email" required/>
+              <input className='email' type="text" name="email" required/>
               <label for="message">Message</label>
          
-             <textarea name="message" id="" cols="50" rows="10" ></textarea>
+             <textarea name="message" id=""  ></textarea>
              <button type="submit" class="btn">Send <span><i class="fas fa-arrow-right"></i></span></button>
             </form>
 
