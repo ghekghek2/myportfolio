@@ -6,7 +6,7 @@ function About() {
     <div className='about section'>
 
 
- <div className="about-box">
+ <div className="about-box section">
             <div className='about-header'>
    
        <p className="title">    About Kevin</p>

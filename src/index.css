@@ -36,6 +36,7 @@ list-style: none;
   width: min(1200px, 100%);
   margin-inline: auto;
 
+
 }
 textarea:focus,
 input:focus {
@@ -72,6 +73,7 @@ a {
 p {
   font-size: var(--step-0);
   color: var(--color-3);
+
 }
 .title {
   font-size: clamp(2.75rem, 2vw, 2.5rem);

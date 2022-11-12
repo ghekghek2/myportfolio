@@ -3,17 +3,9 @@ import React from 'react'
 function Skill() {
 
   return (
-    <div className='section'>
-
-
-  
-
-
-
-	</div>
-
- 
+    <div>Skill</div>
   )
 }
 
 export default Skill
+
