@@ -31,8 +31,8 @@ TweenMax.to(app, 0,{css:{visibility:"visible"}})
 tl.from(meImg,1.2,{scale:0.6, ease:Power3.easeOut,delay:-1 },'Start')
 tl.staggerFrom([p1,p2,p3,p4], 1 ,{y:100,ease:Power3.easeOut},.15,'Start')
 tl.to(resume_btn, .5 ,{css:{opacity:'100%'}})
-tl.to(contact_btn, 1 ,{css:{opacity:'100%'}})
-tl.staggerFrom([socials[0],socials[1],socials[2],socials[3]], 1 ,{x:100,ease:Power3.easeOut},.5,'Start')
+tl.to(contact_btn, .5 ,{css:{opacity:'100%'}})
+tl.staggerFrom([socials[0],socials[1],socials[2],socials[3]], .8 ,{x:100,ease:Power3.easeOut},.5,'Start')
 
 
 
