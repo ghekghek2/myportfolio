@@ -31,14 +31,14 @@ function Home() {
     tl.from(
       meImg,
       1.2,
-      { scale: 0.6, ease: Power3.easeOut, delay: -1 },
+      { scale: 0.6, ease: Power3.easeOut, delay: 1 },
       "Start"
     );
     tl.staggerFrom(
       [p1, p2, p3, p4],
       1,
       { y: 100, ease: Power3.easeOut },
-      0.15,
+      0.8,
       "Start"
     );
     tl.to(resume_btn, 0.5, { css: { opacity: "100%" } });
