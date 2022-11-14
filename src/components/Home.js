@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import { TweenMax, TimelineLite, Power3 } from "gsap";
-import gsap from "gsap";
+
 import "../style/home.css";
 import heroImg from "../images/home-img.png";
 
