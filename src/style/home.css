@@ -138,10 +138,14 @@ margin-top: 5em;
     width: 100%;
     
     }
+    .content .pBox .title{
+      font-size: var(--step-1);
+     
+    }
     
-    
-  .content .p{
+  .content .pBox p{
     margin-top: 2em;
+    font-size: var(--step--2);
   }
 
 
@@ -149,5 +153,9 @@ margin-top: 5em;
     .social-icon{
       width: 100%;
      padding-top: 1em;
+    }
+
+    .content .hero-img{
+      width: 90%;
     }
 }
